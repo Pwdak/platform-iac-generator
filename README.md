@@ -149,7 +149,7 @@ ANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxxxxxxxxxx
 ### 2. Frontend — point to backend
 
 ```javascript
-// In App.jsx, replace the direct API call with:
+// In iac-generator.jsx, replace the direct API call with:
 const response = await fetch('http://localhost:3001/api/generate', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
@@ -298,7 +298,7 @@ MIT — free to use, modify, and distribute.
 
 ## 👤 Author
 
-Built by **[Your Name]**
+Built by **Arnold KOUEVI**
 
 > *"Understanding how infrastructure works — VPC, subnets, security groups, orchestration — is the foundation. LLMs are a force multiplier on top of that knowledge, not a replacement for it."*
 
